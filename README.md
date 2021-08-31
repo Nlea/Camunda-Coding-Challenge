@@ -55,7 +55,7 @@ Go to Cockpit. In order to observer your process instances select running instan
 ![cockpit](/img/cockpit.png)
 
 (Note: If your process instance has ended already you won't see it anymore. A running process instance is marked with a blue token)
-![user task](/img/usertask.png)
+![user task](/img/usertaks.png)
 
 If your process instance stands on a User Task. Naviagte back to Tasklist. You should see here an available task. Claim the task and complete it. 
 
