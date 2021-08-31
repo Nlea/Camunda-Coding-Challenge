@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:biodi="http://bpmn.io/schema/dmn/biodi/2.0" id="Escape" name="DRD" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="4.9.0">
+  <decision id="Decision_1dqln0k" name="Escape Decision">
+    <decisionTable id="DecisionTable_1g46y8h" hitPolicy="FIRST">
+      <input id="Input_1" label="Last travel">
+        <inputExpression id="InputExpression_1" typeRef="string">
+          <text>lastTravel</text>
+        </inputExpression>
+        <inputValues id="UnaryTests_12t1g0j">
+          <text>"Europe"</text>
+        </inputValues>
+      </input>
+      <input id="InputClause_0znlaup" label="Suitcase" biodi:width="192">
+        <inputExpression id="LiteralExpression_17n2t5u" typeRef="boolean">
+          <text>haveSuitcase</text>
+        </inputExpression>
+      </input>
+      <input id="InputClause_071x6ef" label="Drug">
+        <inputExpression id="LiteralExpression_0v0fygr" typeRef="string">
+          <text>drug</text>
+        </inputExpression>
+        <inputValues id="UnaryTests_0h1ubzn">
+          <text>"heroin"</text>
+        </inputValues>
+      </input>
+      <output id="Output_1" label="All variables correct" name="correct" typeRef="boolean" />
+      <rule id="DecisionRule_1epf1u4">
+        <inputEntry id="UnaryTests_1kwigqn">
+          <text>"Europe","europe"</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0l64wau">
+          <text>true</text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_113bg3n">
+          <text>"heroin", "Heroin"</text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_1nmxeud">
+          <text>true</text>
+        </outputEntry>
+      </rule>
+      <rule id="DecisionRule_1pazx2s">
+        <inputEntry id="UnaryTests_1sq1pcw">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_0eya6re">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="UnaryTests_1v344y7">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="LiteralExpression_0i0x8tx">
+          <text>false</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram>
+      <dmndi:DMNShape dmnElementRef="Decision_1dqln0k">
+        <dc:Bounds height="80" width="180" x="160" y="100" />
+      </dmndi:DMNShape>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
