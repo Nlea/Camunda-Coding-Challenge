@@ -15,7 +15,7 @@ A fun way to learn Camunda and win a small price. The coding challenge is design
 
 ## The challenge
 
-### challenge 1: Get the right order of the process
+### Challenge 1: Get the right order of the process
 Inspect the project:  
 ![project structure](/img/project.png)
 
@@ -27,7 +27,7 @@ You will see a process similar to this one:
 
 Below the connected process with sequence flows, gateways and events you see tasks that are unconnected. The tasks form the story of the movie Pulp Fiction. Place them in the right chronological order on the sequence flow.
 
-### challenge 2: Correct the variables
+### Challenge 2: Correct the variables
 
 In order to get the right story plot you have to change some of the variables in the task: 
 
