@@ -3,8 +3,8 @@ A fun way to learn Camunda and win a small price. The coding challenge is design
 
 ## How to win? 
 - Fork this repo
-- Do the challanges. You can do both challenges or just the first one. There are different levels and prices for your preformance.
-- Send us a link to your fork and your address in order to ship a price and your t-shirt size to community@camunda.com with the subject: "SpringOne Coding Challenge"
+- Do the challanges. You can do both challenges or just the first one. There are different levels and prizes for your preformance.
+- Send us a link to your fork and your address in order to ship a prize and your t-shirt size to community@camunda.com with the subject: "SpringOne Coding Challenge"
 
 ## Prerequirements 
 - Make sure you have Java installed and that you use a version below 15. 
