@@ -16,7 +16,7 @@ A fun way to learn Camunda and win a small price. The coding challenge is design
 ## The challenge
 
 ### challenge 1: Get the right order of the process
-Inspect the project:
+Inspect the project:  
 ![project structure](/img/project.png)
 
 Navigate to src/main/resources and open the process.bpmn in the Camunda Modeler! 
