@@ -2,14 +2,19 @@
 A fun way to learn Camunda and win a small price. The coding challenge is designed for the SpringOne Conference. Results can be hand in from the **1st of September till the 08th of September 2021**. 
 
 ## Table of Contents  
-**[How to win](#how-to-win)**  
-**[Prerequirements](#prerequirements)**  
-**[The challenge](#the-challenge)**  
-[Challenge 1: Get the right order of the process](#challenge-1-get-the-right-order-of-the-process)  
-[Challenge 2: Correct the variables](#challenge-2-correct-the-variables)  
-**[Evaluation of your results](#evaluation-of-your-results)**   
-**[Run the application (process) - test if your process works](#run-the-application-process---test-if-your-process-works)**  
-[In your IDE](#in-your-ide)
+- **[How to win](#how-to-win)**  
+- **[Prerequirements](#prerequirements)**  
+- **[The challenge](#the-challenge)**  
+  - [Challenge 1: Get the right order of the process](#challenge-1-get-the-right-order-of-the-process)  
+  - [Challenge 2: Correct the variables](#challenge-2-correct-the-variables)  
+- **[Evaluation of your results](#evaluation-of-your-results)**   
+- **[Run the application (process) - test if your process works](#run-the-application-process---test-if-your-process-works)**  
+  - [In your IDE](#in-your-ide)  
+  - [Camunda's webapplications](#camundas-webapplications)   
+  - [Start a process instance](#start-a-process-instance)   
+  - [Terminal in your IDE](#terminal-in-your-ide)   
+  - [Cockpit](#cockpit-observe-the-state-of-your-process)   
+  - [Tasklist](#tasklist-claim-and-complete-usertasks-from-your-process)  
 
 
 
@@ -119,7 +124,7 @@ Go to Cockpit. In order to observer your process instances select running instan
 
 If your process instance stands on a User Task. Naviagte back to Tasklist. You should see here an available task:  
 
-![user task in Tasklist](/img/usertask.png)
+![user task in Tasklist](/img/Usertask.png)
 
 1. Claim the task and complete it. 
 2. Look at the form: Do you still remeber what happens with the golden watch in Pulp Fiction and if Butch takes it directly with him while escaping?
