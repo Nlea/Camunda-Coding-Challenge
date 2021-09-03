@@ -8,7 +8,7 @@ A fun way to learn Camunda and win a small price. The coding challenge is design
 [Challenge 1: Get the right order of the process](#challenge-1-get-the-right-order-of-the-process)  
 [Challenge 2: Correct the variables](#challenge-2-correct-the-variables)  
 **[Evaluation of your results](#evaluation-of-your-results)**
-**[Run the application (process) - test if your process works](#run-the-application-(process)-test-if-your-process-works)**
+**[Run the application (process) - test if your process works](#run-the-application-process---test-if-your-process-works)**
 
 
 
