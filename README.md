@@ -52,10 +52,10 @@ Below the connected process with sequence flows, gateways and events you see tas
 
 In order to get the right story plot you have to change some of the variables in the task: 
 
-**Script Task "Royal and Cheese conversation":** 
+**Script Task "Royal and Cheese conversation"**:    
 Make sure that the the variable "lastTravel" is set to "Europe". To do so select the Script Task and open in the Camunda Modeler on the right hand site the Property panel and inspect the inline Script
 
-**Service Task: "Prepare To Go Out With Mia"**: 
+**Service Task: "Prepare To Go Out With Mia"**:   
 This Service task is implemented as a Delegate. Go into your IDE and look in the path: src/main/java/camunda.example.workflow for the "PrepareToGoOutDelegate". Change inside the Delegate the variable "drug" to "heroin". 
 
 ## Evaluation of your results
