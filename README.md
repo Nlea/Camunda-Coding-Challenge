@@ -2,13 +2,13 @@
 A fun way to learn Camunda and win a small price. The coding challenge is designed for the SpringOne Conference. Results can be hand in from the **1st of September till the 08th of September 2021**. 
 
 ##Table of Contents  
-**[How to win](##How-to-win)**  
-**[Prerequirements](##Prerequirements)**  
-**[The challenge](##The-challenge)**  
-[Challenge 1: Get the right order of the process](###Challenge-1:-Get-the-right-order-of-the-process)  
-[Challenge 2: Correct the variables](##Challenge-2:-Correct-the-variables)  
-**[Evaluation of your results](##Evaluation-of-your-results)**
-**[Run the application (process) - test if your process works](##-Run-the-application-(process)-test-if-your-process-works)**
+**[How to win](#how-to-win)**  
+**[Prerequirements](#prerequirements)**  
+**[The challenge](#the-challenge)**  
+[Challenge 1: Get the right order of the process](#challenge-1-get-the-right-order-of-the-process)  
+[Challenge 2: Correct the variables](#challenge-2-correct-the-variables)  
+**[Evaluation of your results](#evaluation-of-your-results)**
+**[Run the application (process) - test if your process works](#run-the-application-(process)-test-if-your-process-works)**
 
 
 
