@@ -33,20 +33,20 @@ A fun way to learn Camunda and win a small price. The coding challenge is design
 ## The challenge
 
 ### Challenge 1: Get the right order of the process
-Get the right chronological order of the movie pulp fiction! 
+Get the right chronological order of the movie [Pulp Fiction](https://en.wikipedia.org/wiki/Pulp_Fiction). 
 
 Inspect the project:  
 ![project structure](/img/project.png)
 
-Navigate to src/main/resources and open the process.bpmn in the Camunda Modeler! 
+Navigate to `src/main/resources` and open the `process.bpmn` in the Camunda Modeler! 
 
 You will see a process similar to this one: 
 
 ![project structure](/img/process-without-tasks.png)
 
-Below the connected process with sequence flows, gateways and events you see tasks that are unconnected. The tasks form the story of the movie [Pulp Fiction](https://en.wikipedia.org/wiki/Pulp_Fiction). Darg and Drop them in the right chronological order on the sequence flow.  
+Below the connected process with sequence flows, gateways and events you see tasks that are unconnected. The tasks form the story of the movie Pulp Fiction. Darg and Drop them in the right chronological order on the sequence flow.  
 
-Note: Make sure to save your model :)  
+:pushpin: Note: Make sure to save your model :)  
 
 ### Challenge 2: Correct the variables
 
@@ -59,9 +59,12 @@ Make sure that the the variable "lastTravel" is set to "Europe". To do so select
 This Service task is implemented as a Delegate. Go into your IDE and look in the path: src/main/java/camunda.example.workflow for the "PrepareToGoOutDelegate". Change inside the Delegate the variable "drug" to "heroin". 
 
 ## Evaluation of your results
-- Challenge 1: You got the right or almost right order. The BPMN tasks are connected on the sequence flow: we send you a small price.
-- Challenge 1 + 2: You got the right or almost right order and changed the variables: we send you a medium price
-- Challenge 1+2 without any mistakes. It is possible to start an instance of your process and route your process till the end without runtime errors:  we send you a large price
+- Challenge 1: You got the right or almost right order. The BPMN tasks are connected on the sequence flow:   
+we send you a small price. :gift:
+- Challenge 1 + 2: You got the right or almost right order and changed the variables:   
+we send you a medium price :gift: :gift:
+- Challenge 1 + 2 without any mistakes. It is possible to start an instance of your process and route your process till the end without runtime errors:   
+we send you a large price :gift: :gift: :gift:
 
 ## Run the application (process) - test if your process works  
 Running the application and starting an instance of the process will give you a hint if you got the right order. If the order is right your instance will run through. If the order is not correct potentially you will get runtime errors due to missing variables.
