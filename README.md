@@ -1,6 +1,6 @@
-# SpringOne-Camunda-Coding-Challenge
+# Camunda-Coding-Challenge
 
-A fun way to learn about Camunda and win a small prize. The coding challenge is designed for the SpringOne Conference. Results may be submitted from **September 1–8, 2021**. 
+A fun way to learn about Camunda and win a small prize. The coding challenge is designed for the SpringOne Conference. Results may be submitted from **September 21-29, 2021**. 
 
 ## Table of Contents
 
