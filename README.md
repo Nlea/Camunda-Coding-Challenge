@@ -1,6 +1,6 @@
 # Camunda-Coding-Challenge
 
-A fun way to learn about Camunda and win a small prize. The coding challenge is designed for the SpringOne Conference. Results may be submitted from **September 21-29, 2021**. 
+A fun way to learn about Camunda and win a small prize. The coding challenge is designed for the Camunda Code Studio. Results may be submitted from **September 21-29, 2021**. 
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ A fun way to learn about Camunda and win a small prize. The coding challenge is 
 
 - Fork this repo.
 - Complete the challenges. You can do both challenges or just the first one. There are different levels and prizes for your performance.
-- Send us a link to your fork, your address, and your :shirt: size to community@camunda.com with the subject: "SpringOne Coding Challenge" so we can mail you your prize!
+- Send us a link to your fork, your address, and your :shirt: size to community@camunda.com with the subject: "Camunda Code Studio Coding Challenge" so we can mail you your prize!
 
 ## Prerequisites
 
